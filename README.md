@@ -48,7 +48,7 @@ $sudo pip install -r requirements.txt （此版本使用的Flask版本是0.10版
 
 配置好run.sh中的环境变量，在命令行中使用sudo执行，权限不足，可以使用chmod命令来给run.sh添加执行权限。这时候系统已经保存有这些环境变量了。为了保护你的隐私请不要在config.py文件直接配置。
 
-2. 数据库迁移
+ 2. 数据库迁移
 
 删除源码中的 migrations 文件夹和sqllite文件 
 
